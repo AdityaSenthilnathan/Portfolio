@@ -1,9 +1,21 @@
+
+
+
 .MyProjects{
 
     background-color: aqua;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    /*justify-content: space-around;*/
-    align-items: stretch;
+    
+    
+    
+    align-items: center;
+    
 }
+
+
+  
+
+    
+
