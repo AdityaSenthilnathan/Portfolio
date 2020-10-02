@@ -3,16 +3,20 @@
 
 .MyProjects{
 
-    background-color: aqua;
+    background-color:#00ffff;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    color: rgb(17, 0, 255);
+    box-shadow: 10px -10px;
     
+    padding: 10% 10%;
     
     
     align-items: center;
     
 }
+
 
 
   
