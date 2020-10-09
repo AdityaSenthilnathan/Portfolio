@@ -1,25 +1,44 @@
 
-
-
 .MyProjects{
 
     background-color:#00ffff;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; 
-    color: rgb(17, 0, 255);
+    color: #1100ff;
     box-shadow: 10px -10px;
     
     padding: 10% 10%;
-    
-    
     align-items: center;
     
+}
+a:visited{
+    color: #000000;
+
+}
+a:link{
+    color: #e24343;
+
+}
+.MyProjectItem{
+    position: relative;
+
+}
+
+.MyProjectItem a{
+
+position: absolute;
+top: 50%;
+left: 50%;
+opacity: 0;
+
+}
+  
+.MyProjectItem:hover a{
+
+    opacity: 1;
 }
 
 
 
-  
-
-    
 
